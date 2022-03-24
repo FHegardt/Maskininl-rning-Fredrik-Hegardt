@@ -1,4 +1,5 @@
 import pandas as pd
 import joblib
 
-myModel = joblib.load("KNN_model.pkl")
+
+myModel = joblib.load("./Labb./KNN_model.pkl")
