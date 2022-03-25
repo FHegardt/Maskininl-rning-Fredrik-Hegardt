@@ -3,7 +3,7 @@ import joblib
 from sklearn.preprocessing import StandardScaler
 
 
-myModel = joblib.load("./Labb./KNN_model.pkl")
+myModel = joblib.load("./Labb./best_model.pkl")
 test_data = pd.read_csv("./Labb./test_samples.csv", index_col=0)
 
 probability = myModel.predict_proba(test_data)
